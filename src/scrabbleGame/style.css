@@ -1,0 +1,31 @@
+/* style.css */
+
+.root {
+    -fx-font-family: "Segoe UI", Arial, sans-serif;
+    -fx-background-color: linear-gradient(to bottom, #f4f4f4, #ffffff);
+    -fx-padding: 10;
+}
+
+.label {
+    -fx-font-size: 14px;
+    -fx-text-fill: #333333;
+    -fx-font-weight: bold;
+}
+
+.text-field, .text-area {
+    -fx-font-size: 14px;
+}
+
+.button {
+    -fx-background-color: #0078D7;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+}
+
+.table-view {
+    -fx-border-color: #ccc;
+}
+
+.table-column {
+    -fx-alignment: CENTER_LEFT;
+}
